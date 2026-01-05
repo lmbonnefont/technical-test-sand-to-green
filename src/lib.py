@@ -20,7 +20,6 @@ def calculate_irrigation_need(
     3. Determine status: SURPLUS, OPTIMAL, DEFICIT, or CRITICAL.
     """
 
-    # Target humidity based on ET0 and Kc (Fake computation for the test)
     # Higher ET0 and Kc mean the plant needs higher soil moisture.
     target_humidity = 30.0 + (reading.et0 * kc * 10.0)
 
