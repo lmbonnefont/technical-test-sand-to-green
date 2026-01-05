@@ -1,6 +1,6 @@
 import os
 
-from src.pipelines.irrigation_pipeline import IrrigationPipelineUseCase
+from src.use_cases import IrrigationPipelineUseCase
 
 
 def main():

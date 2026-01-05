@@ -5,8 +5,8 @@ from datetime import datetime
 # Add src to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.core.entities import SensorReading
-from src.core.calculators import calculate_irrigation_need
+from src.entities import SensorReading
+from src.lib import calculate_irrigation_need
 
 
 def test_irrigation():

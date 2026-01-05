@@ -4,10 +4,10 @@ install:
 	pip install -r requirements.txt
 
 test:
-	pytest tests/
+	export PYTHONPATH=$PYTHONPATH:. && python3 -m pytest tests/
 
 run:
-	python3 -m src.main
+	export PYTHONPATH=$PYTHONPATH:. && python3 src/main.py
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +

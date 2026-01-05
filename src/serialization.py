@@ -4,8 +4,8 @@ from datetime import datetime
 from typing import Dict
 from typing import List
 
-from src.core.entities import NodeMetadata
-from src.core.entities import SensorReading
+from src.entities import NodeMetadata
+from src.entities import SensorReading
 
 
 def load_sensor_readings(file_path: str) -> List[SensorReading]:

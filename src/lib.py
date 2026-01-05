@@ -1,5 +1,5 @@
-from src.core.entities import IrrigationAdvice
-from src.core.entities import SensorReading
+from src.entities import IrrigationAdvice
+from src.entities import SensorReading
 
 HUMIDITY_THRESHOLD_CRITICAL = 15.0  # %
 HUMIDITY_THRESHOLD_REQUIRED = 40.0  # %

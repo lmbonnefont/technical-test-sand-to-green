@@ -1,9 +1,9 @@
 from typing import List
 
-from src.core.calculators import calculate_irrigation_need
-from src.core.entities import IrrigationAdvice
-from src.infrastructure.data_access import load_node_metadata
-from src.infrastructure.data_access import load_sensor_readings
+from src.lib import calculate_irrigation_need
+from src.entities import IrrigationAdvice
+from src.serialization import load_node_metadata
+from src.serialization import load_sensor_readings
 
 
 class IrrigationPipelineUseCase:
